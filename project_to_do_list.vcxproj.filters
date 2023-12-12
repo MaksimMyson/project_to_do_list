@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{cdd09b1c-8572-4ca1-8982-280ae78895ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilterRepository">
+      <UniqueIdentifier>{32f04714-b2be-4742-b264-bbb6001435a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilterLocal">
+      <UniqueIdentifier>{f3c03bad-5ec5-475f-a6f8-a0de3056863d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilterDataSource">
+      <UniqueIdentifier>{0e0e1660-7259-42ed-a3a3-82019656a406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilterFunctions">
+      <UniqueIdentifier>{07af7c6e-94b0-42d9-95a2-38eaa38a4082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilterEntity">
+      <UniqueIdentifier>{22331266-8be3-4f2b-923b-9c9fdef9bf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilterScreenc">
+      <UniqueIdentifier>{c500f82e-4017-49a7-bb4f-cfb4b8602c16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterRepository.cpp">
+      <Filter>FilterRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterLocal.cpp">
+      <Filter>FilterLocal</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterFunctions.cpp">
+      <Filter>FilterFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterScreenc.cpp">
+      <Filter>FilterScreenc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FilterRepository.h">
+      <Filter>FilterRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterLocal.h">
+      <Filter>FilterLocal</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDataSource.h">
+      <Filter>FilterDataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterFunctions.h">
+      <Filter>FilterFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterEntity.h">
+      <Filter>FilterEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterScreenc.h">
+      <Filter>FilterScreenc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
