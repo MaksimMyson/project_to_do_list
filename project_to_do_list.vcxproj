@@ -127,19 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FilterFunctions.cpp" />
-    <ClCompile Include="FilterLocal.cpp" />
-    <ClCompile Include="FilterRepository.cpp" />
-    <ClCompile Include="FilterScreenc.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TodoApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FilterDataSource.h" />
-    <ClInclude Include="FilterEntity.h" />
-    <ClInclude Include="FilterFunctions.h" />
-    <ClInclude Include="FilterLocal.h" />
-    <ClInclude Include="FilterRepository.h" />
-    <ClInclude Include="FilterScreenc.h" />
+    <ClInclude Include="TodoApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
